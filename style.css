@@ -1,0 +1,103 @@
+body {
+    min-height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background-image: url('img/Wallpaper/olc.jpg');
+    background-size: cover;
+}
+
+.tb_uwp {
+    height: 48px;
+    width: 100%;
+    background-color: rgb(60, 60, 60);
+    position: absolute;
+    bottom: 0;
+    display: flex;
+}
+
+._uwp_menu-btn {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    opacity: 100%;
+    transition: all 200ms ease-in-out;
+}
+
+._uwp_menu-btn:hover {
+    opacity: 60%;
+}
+
+._uwp_explorer-btn {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    opacity: 100%;
+    transition: all 200ms ease-in-out;
+}
+
+._uwp_explorer-btn:hover {
+    opacity: 60%;
+}
+
+._uwp_chrome-btn {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    opacity: 100%;
+    transition: all 200ms ease-in-out;
+}
+
+._uwp_chrome-btn:hover {
+    opacity: 60%;
+}
+
+._uwp_gallery-btn {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    opacity: 100%;
+    transition: all 200ms ease-in-out;
+}
+
+._uwp_gallery-btn:hover {
+    opacity: 60%;
+}
+
+.shell_dt-icon_ico_rufus_crash {
+    width: 40px;
+    height: 40px;
+    margin: 22px;
+    left: 4px;
+    top: -10px;
+    position: absolute;
+}
+
+.shell_dt-capt_ico_rufus_crash {
+    color: white;
+    font-family: arial;
+    position: absolute;
+    top: 50px;
+    left: 22px;
+    cursor: default;
+}
+
+/* This was something like hell */
+
+._explorer-shell_dt-icon_rufus_exe:hover {
+    background-color: rgb(74, 127, 148);
+    width: 86px;
+    left: 22px;
+    top: 22px;
+    height: 100px;
+    position: absolute;
+    border: 0.5px solid skyblue;
+}
+
+._explorer-shell_dt-icon_rufus_exe {
+    background-color: none;
+    width: 86px;
+    left: 22px;
+    top: 22px;
+    height: 100px;
+    position: absolute;
+}
