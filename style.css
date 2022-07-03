@@ -111,6 +111,14 @@ body {
     margin-right: auto;
     top: 60px;
     border-radius: 10px;
+    opacity: 0%;
+    transform: scale(0);
+    transition: all 300ms ease-in-out;
+}
+
+.rufus_crash_shellwinclassic_runmode-invoker.active {
+    opacity: 100%;
+    transform: scale(1);
 }
 
 .classic_rufus-shell_topbar_icon {
