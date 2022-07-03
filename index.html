@@ -17,17 +17,17 @@
         <img class="_uwp_chrome-btn" src="ico/gchrome.png" title="Google Chrome" draggable='false'>
         <img class="_uwp_gallery-btn" src="sys/gallery.png" title="Phtots" draggable='false'>
     </div>
-    <div class="_explorer-shell_dt-icon_rufus_exe">
+    <div class="_explorer-shell_dt-icon_rufus_exe" onclick="rufusStatus()">
         <img class="shell_dt-icon_ico_rufus_crash" draggable="false" src="ico/additional/rufus.png">
         <p class="shell_dt-capt_ico_rufus_crash">Rufus</p>
     </div>
-    <div class="rufus_crash_shellwinclassic_runmode-invoker">
+    <div class="rufus_crash_shellwinclassic_runmode-invoker" id="rufus_crash_shellwinclassic_runmode-invoker">
         <div class="shell_rufus_topbar_classic">
             <img src="ico/additional/rufus.png" class="classic_rufus-shell_topbar_icon" draggable="false" />
             <p class="classic_rufus-shell_topbar_caption">Rufus</p>
             <div class="classic_rufus-shell_toolbar-container">
                 <div class="shell_rufus-toolbar_close-container">
-                    <p class="classic_rufus-shell_toolbar-close">&Cross;</p>
+                    <p class="classic_rufus-shell_toolbar-close" onclick="rufusStatus()">&Cross;</p>
             </div>
                 <div class="shell_rufus-toolbar_maximize-container">
                 <p class="classic_rufus-shell_toolbar-maximize">&boxbox;</p>
