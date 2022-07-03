@@ -2,7 +2,7 @@ body {
     min-height: 100vh;
     overflow: hidden;
     margin: 0;
-    background-image: url('https://raw.githubusercontent.com/Yatin-As-Enderman/Win11/main/img/wallpaper/olc.jpg');
+    background-image: url('https://raw.githubusercontent.com/Yatin-As-Enderman/Win11/main/img/Wallpaper/olc.jpg');
     background-size: cover;
 }
 
@@ -100,4 +100,115 @@ body {
     top: 22px;
     height: 100px;
     position: absolute;
+}
+
+.rufus_crash_shellwinclassic_runmode-invoker {
+    height: 500px;
+    width: 300px;
+    background-color: whitesmoke;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 60px;
+    border-radius: 10px;
+}
+
+.classic_rufus-shell_topbar_icon {
+    width: 20px;
+    margin: 5px;
+}
+
+.classic_rufus-shell_topbar_caption {
+    font-family: arial;
+    font-size: 13px;
+    position: relative;
+    top: -40px;
+    left: 30px;
+    cursor: default;
+}
+
+.shell_rufus_topbar_classic {
+    background-color: rgb(213, 213, 213);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 30px;
+}
+
+.classic_rufus-shell_toolbar-close {
+    font-weight: lighter;
+    cursor: default;
+    top: 5px;
+    position: relative;
+    left: 8px;
+}
+
+.classic_rufus-shell_toolbar-container {
+    position: relative;
+    top: -73px;
+    left: 275px;
+}
+
+.shell_rufus-toolbar_close-container {
+    background-color: none;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -5px;
+    color: black;
+    left: -5px;
+    border-top-right-radius: 10px;
+    transition: all 300ms ease-in-out;
+}
+
+.shell_rufus-toolbar_close-container:hover {
+    background-color: red;
+    color: white;
+}
+
+.shell_rufus-toolbar_maximize-container {
+    background-color: none;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -51px;
+    color: black;
+    left: -35px;
+    transition: all 300ms ease-in-out;
+}
+
+.shell_rufus-toolbar_maximize-container:hover {
+    background-color: gray;
+    color: white;
+}
+
+.classic_rufus-shell_toolbar-maximize {
+    font-weight: lighter;
+    cursor: default;
+    top: 5px;
+    position: relative;
+    left: 8px;
+}
+
+.shell_rufus-toolbar_minimize-container {
+    background-color: none;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -97px;
+    color: black;
+    left: -65px;
+    transition: all 300ms ease-in-out;
+}
+
+.shell_rufus-toolbar_minimize-container:hover {
+    background-color: gray;
+    color: white;
+}
+
+.classic_rufus-shell_toolbar-minimize {
+    font-weight: lighter;
+    cursor: default;
+    top: 5px;
+    position: relative;
+    left: 8px;
 }
