@@ -195,6 +195,7 @@ body {
     top: 5px;
     position: relative;
     left: 8px;
+    color: rgb(94, 94, 94);
 }
 
 .shell_rufus-toolbar_minimize-container {
@@ -263,4 +264,53 @@ body {
     position: relative;
     top: -32px;
     left: 48px;
+    cursor: default;
 }
+
+._shell-rufus_drvprep-sect-title {
+    font-size: 20px;
+    position: relative;
+    left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+._shell-rufufs_drvprep-sect_dvcapt {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 10px;
+    top: -20px;
+}
+
+._rufus-device-selector {
+    position: relative;
+    top: -30px;
+    left: 10px;
+    border: 1px solid blue;
+    background: white;
+    width: 280px;
+}
+
+._rufus-device-selector:hover {
+    background: rgb(215, 237, 245);
+}
+
+._shell-rufus_drvprep-sect_bootcapt {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 10px;
+    top: -38px;
+}
+
+._rufus-iso-selector {
+    position: relative;
+    top: -48px;
+    left: 10px;
+    border: 1px solid blue;
+    background: white;
+    width: 280px;
+}
+
+._rufus-iso-selector:hover {
+    background: rgb(215, 237, 245);
+}
+
