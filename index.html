@@ -52,9 +52,53 @@
                 Boot Selection (use option list for now)
             </p>
             <select class="_rufus-iso-selector" name="_shell-rufufs_drvprep-sect_bootcaptt">
-                <option value="dummydevice">Ubuntu Desktop (amd64).iso</option>
-                <option value="usbexample">Windows 98 (StartupDisk).iso</option>
+                <option value="ubuntu">Ubuntu Desktop (amd64).iso</option>
+                <option value="w98">Windows 98 (StartupDisk).iso</option>
             </select>
+            <p class="_rufus-scheme-selector" for="_rufus-scheme-selector">Partition Scheme</p>
+            <select class="_rufus-scheme-selector_opt" name="_rufus-scheme-selector">
+                <option value="mbr">MBR</option>
+                <option value="gpt">GPT</option>
+            </select>
+            <p class="_rufus-ts-selector" for="_rufus-ts-selector">Target System</p>
+            <select class="_rufus-ts-selector_opt" name="_rufus-ts-selector">
+                <option value="bios">BIOS</option>
+                <option value="uefi">UEFI (non-CSM)</option>
+            </select>
+        </div>
+        <div class="_shell-rufus_formatprep-sect">
+            <p class="_shell-rufus_formatprep-sect-title">
+                Format Options --------------------
+            </p>
+            <p class="_shell-rufus_formatprep-sect_vlabel" for="_shell-rufus_formatprep-sect_vlabel">
+                Volume Label
+            </p>
+            <input class="_shell-rufus_formatprep-sect_vlabel-opt" name="_shell-rufus_formatprep-sect_vlabel-opt" placeholder="Enter Volume Label">
+            <p class="_shell-rufus_formatprep-sect_device-fs" for="_shell-rufus_formatprep-sect_device-fs">File system</p>
+            <select class="_shell-rufus_formatprep-sect_device-fs_opt" name="_shell-rufus_formatprep-sect_device-fs">
+                <option value="f32">FAT32 (default)</option>
+                <option value="ntfs">NTFS</option>
+            </select>
+            <p class="_shell-rufus_formatprep-sect_clusterprep" for="_shell-rufus-formatprep-sect_clusterprep">Cluster Size</p>
+            <select class="_shell-rufus_formatprep-sect_clusterprep-opt" name="_shell-rufus_formatprep-sect_clusterprep">
+                <option value="b">128 Bytes</option>
+                <option value="b">256 Bytes</option>
+                <option value="b">384 Bytes</option>
+                <option value="b">512 Bytes</option>
+                <option value="kb">8 Kilobytes</option>
+                <option value="kb">16 Kilobytes</option>
+                <option value="kb">32 Kilobytes</option>
+            </select>
+        </div>
+        <div class="_shell-rufus_status-sect">
+            <p class="_shell-rufus_status-sect-title">
+                Status ----------------------------
+            </p>
+            <div class="_shell-rufus_status-sect-progress" id="rufus-status-pBar">
+                <div class="_shellProgressBar-rufus-pBar" id="rufus-status-pBarMain"></div>
+            </div>
+            <button class="_shell-rufus-status-start-pb" onclick="rufusProgressbarStart();">START</button>
+            <button class="_shell-rufus-status-close" onclick="rufusStatus();">CLOSE</button>
         </div>
     </div>
     <div class="_uwpshell_StartMenuExperience" id="_uwpshell_StartMenuExperience">
