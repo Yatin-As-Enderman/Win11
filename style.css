@@ -272,6 +272,7 @@ body {
     position: relative;
     left: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    cursor: default;
 }
 
 ._shell-rufufs_drvprep-sect_dvcapt {
@@ -279,6 +280,7 @@ body {
     position: relative;
     left: 10px;
     top: -20px;
+    cursor: default;
 }
 
 ._rufus-device-selector {
@@ -288,6 +290,7 @@ body {
     border: 1px solid blue;
     background: white;
     width: 280px;
+    cursor: cell;
 }
 
 ._rufus-device-selector:hover {
@@ -299,6 +302,7 @@ body {
     position: relative;
     left: 10px;
     top: -38px;
+    cursor: default;
 }
 
 ._rufus-iso-selector {
@@ -308,9 +312,178 @@ body {
     border: 1px solid blue;
     background: white;
     width: 280px;
+    cursor: cell;
 }
 
 ._rufus-iso-selector:hover {
     background: rgb(215, 237, 245);
 }
 
+._rufus-scheme-selector {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 10px;
+    top: -56px;
+    font-size: 13px;
+}
+
+._rufus-scheme-selector_opt {
+    position: relative;
+    left: 10px;
+    top: -64px;
+    width: 130px;
+    cursor: cell;
+    border: 1px solid blue;
+    background: white;
+}
+
+._rufus-ts-selector {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    left: 160px;
+    top: -116px;
+    position: relative;
+}
+
+._rufus-ts-selector_opt {
+    position: relative;
+    left: 160px;
+    width: 130px;
+    top: -124px;
+    cursor: cell;
+    border: 1px solid blue;
+    background: white;
+}
+
+._rufus-scheme-selector_opt:hover {
+    background: rgb(215, 237, 245);
+}
+
+._rufus-ts-selector_opt:hover {
+    background: rgb(215, 237, 245);
+}
+
+._shell-rufus_formatprep-sect-title {
+    font-size: 20px;
+    position: relative;
+    left: 10px;
+    top: -130px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: default;
+}
+
+._shell-rufus_formatprep-sect_vlabel {
+    cursor: default;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 10px;
+    top: -145px;
+}
+
+._shell-rufus_formatprep-sect_vlabel-opt {
+    border: 1px solid blue;
+    top: -155px;
+    left: 10px;
+    position: relative;
+    width: 274px;
+    height: 20px;
+    cursor: cell;
+}
+
+._shell-rufus_formatprep-sect_vlabel-opt:hover {
+    border: 1px solid blue;
+    background-color: rgb(206, 238, 250);
+}
+
+._shell-rufus_formatprep-sect_device-fs {
+    font-family: Arial, Helvetica, sans-serif;
+    /* WHAT THE HELL SHALL I EVEN WRITE AHEAD?????*/
+    font-size: 13px;
+    position: relative;
+    left: 10px;
+    top: -160px;
+    cursor: default;
+}
+
+._shell-rufus_formatprep-sect_device-fs_opt {
+    position: relative;
+    left: 10px;
+    width: 130px;
+    top: -164px;
+    cursor: cell;
+    border: 1px solid blue;
+    background: white;
+}
+
+._shell-rufus_formatprep-sect_device-fs_opt:hover {
+    background: rgb(215, 237, 245);
+}
+
+._shell-rufus_formatprep-sect_clusterprep {
+    font-family: Arial, Helvetica, sans-serif;
+    top: -220px;
+    position: relative;
+    left: 160px;
+    font-size: 13px;
+    cursor: default;
+}
+
+._shell-rufus_formatprep-sect_clusterprep-opt {
+    position: relative;
+    left: 160px;
+    width: 130px;
+    top: -224px;
+    cursor: cell;
+    border: 1px solid blue;
+    background: white;
+}
+
+._shell-rufus_status-sect-title {
+    position: relative;
+    top: -230px;
+    left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+._shell-rufus_status-sect-progress {
+    width: 276px;
+    background-color: rgb(230, 230, 230);
+    position: relative;
+    top: -240px;
+    left: 10px;
+    border: 1px solid rgb(202, 202, 202);
+    color: black;
+}
+
+._shellProgressBar-rufus-pBar {
+    width: 0%;
+    height: 20px;
+    background-color: green;
+}
+
+button {
+    border: 1px solid blue;
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    width: 80px;
+    height: 30px;
+}
+
+button:hover {
+    background: rgb(215, 237, 245);
+}
+
+._shell-rufus-status-start-pb {
+    top: -220px;
+    left: 10px;
+    position: relative;
+}
+
+._shell-rufus-status-close {
+    top: -220px;
+    left: 10px;
+    position: relative;
+}
