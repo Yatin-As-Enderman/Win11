@@ -41,3 +41,12 @@ function closeRufusMsg() {
     const elem = document.getElementById("_hotBarmsg-rufus");
     elem.style.right = '-300px'
 }
+
+function bootWindows() {
+    const elem = document.getElementById('bootloader');
+    elem.classList.remove('active');
+    setInterval(function() {
+        elem.classList.add('active');
+    }, 6000);
+}
+
