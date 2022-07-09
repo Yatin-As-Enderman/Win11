@@ -10,7 +10,7 @@
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+<body onload="bootWindows();">
     <div class="tb_uwp" id="tb_uwp">
         <img class="_uwp_menu-btn" src="sys/home.png" title="Start" draggable='false' onclick="menuStatus()">
         <img class="_uwp_explorer-btn" src="sys/explorer.png" title="File Explorer" draggable='false'>
@@ -118,6 +118,10 @@
             The drive has been successfully created.
         </p>
         <button class="uwpClose_msg" onclick="closeRufusMsg();">X</button>
+    </div>
+    <div class="win-kernel-bl" id="bootloader">
+        <img class="win-kernel-bl-wlogo" draggable="false" src="sys/wlogo.png">
+        <div class="noice"><div class="win-kernel-bl-indic"></div></div>
     </div>
 </body>
 </html>
