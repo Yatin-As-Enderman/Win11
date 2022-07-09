@@ -460,6 +460,9 @@ body {
     width: 0%;
     height: 20px;
     background-color: green;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 button {
@@ -487,3 +490,72 @@ button:hover {
     left: 10px;
     position: relative;
 }
+
+._uwpMenu_userDashPower {
+    position: relative;
+    top: -74px;
+    left: 250px;
+    opacity: 100%;
+    transition: all 500ms ease-in;
+}
+
+._uwpMenu_userDashPower:hover {
+    opacity: 50%;
+    background-color: rgba(0, 0, 0, 0.275);
+    border-radius: 100%;
+}
+
+._uwpHotbarMsg-rufus-cmp {
+    background-color: rgb(89, 89, 89);
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    bottom: 60px;
+    /* right: 10px; */
+    right: -300px;
+    border-radius: 10px;
+    transition: 500ms ease-in-out;
+}
+
+._uwpHotbarMsg-rufus-cmp.active {
+    right: 10px;
+}
+
+.uwpTitle_msg {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 10px;
+    font-size: 20px;
+    cursor: default;
+}
+
+.uwpPara_msg {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 10px;
+    position: relative;
+    font-size: 14px;
+    cursor: default;
+}
+
+.uwpClose_msg {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+    position: relative;
+    right: -275px;
+    top: -90px;
+    transition: 200ms all ease-in-out;
+    cursor: cell;
+}
+
+.uwpClose_msg:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
