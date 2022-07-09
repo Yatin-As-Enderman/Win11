@@ -559,3 +559,61 @@ button:hover {
     color: rgb(0, 0, 0);
 }
 
+.win-kernel-bl {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    cursor: wait;
+    opacity: 100%;
+    transform: scale(1);
+    transition: 300ms ease-in-out;
+}
+
+.win-kernel-bl.active {
+    transform: scale(0);
+    opacity: 0%;
+}
+
+.win-kernel-bl-wlogo {
+    width: 150px;
+    height: 150px;
+    top: 100px;
+    position: relative;
+}
+
+.win-kernel-bl-indic {
+    display: flex;
+}
+
+.win-kernel-bl-indic::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: black;
+    border: 5px solid #000000;
+    border-top-color: #ffffff;
+    border-radius: 50%;
+    animation: loading 1s linear infinite;
+    position: relative;
+}
+
+@keyframes loading {
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+.noice {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: -200px;
+    position: relative;
+}
+
