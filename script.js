@@ -22,7 +22,22 @@ function rufusProgressbarStart() {
         } else {
           width++;
           elem.style.width = width + "%";
+          elem.innerHTML = width + "%";
+          rufusCompleteMsg();
         }
       }
     }
-  }
+}
+
+function rufusCompleteMsg() {
+    const elem = document.getElementById("_hotBarmsg-rufus");
+    elem.style.right = '10px';
+    setInterval(function() {
+        elem.style.right = '-300px'
+    }, 10000);
+}
+
+function closeRufusMsg() {
+    const elem = document.getElementById("_hotBarmsg-rufus");
+    elem.style.right = '-300px'
+}
