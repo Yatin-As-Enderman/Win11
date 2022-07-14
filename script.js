@@ -49,4 +49,3 @@ function bootWindows() {
         elem.classList.add('active');
     }, 6000);
 }
-
